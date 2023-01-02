@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    position: fixed;
+    display: flex;
+    list-style: none;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+nav ul li:hover{
+    color: rgb(212, 194, 194);
+    cursor: pointer;
+
+}
+.hindi{
+    margin-left: 15%;
+}
+/* a{
+    color: white;
+    list-style: none;
+} */
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 100vh;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: fill;
+    background-color: black;
+    color: rgb(186, 211, 209);
+    font-family: 'Varek round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    padding:  60px;
+    
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons{
+    margin: 14px 0;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 45px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timeSpan{
+    margin: 0 23px;
+}
+.timeSpan i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 9.5vw;
+    font-family: 'Varek round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
